@@ -4,7 +4,7 @@
 ![Leetcode](./logo.png?style=centerme)
 
 ## Progress
-[Problem Status](#problem-status) shows the latest progress to all 1000+ questions. Currently we have 318 completed solutions. Note: questions with &hearts; mark means that you have to **Subscript to premium membership** of LeetCode to unlock them.
+[Problem Status](#problem-status) shows the latest progress to all 1000+ questions. Currently we have 323 completed solutions. Note: questions with &hearts; mark means that you have to **Subscript to premium membership** of LeetCode to unlock them.
 
 ## Contributors
 
@@ -85,7 +85,7 @@
 [Rotate Array](https://leetcode.com/problems/rotate-array/)| [Swift](./Array/RotateArray.swift)| Easy| O(n)| O(1)|
 [Rotate Image](https://leetcode.com/problems/rotate-image/)| [Swift](./Array/RotateImage.swift)| Medium| O(n^2)| O(1)|
 [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)| [Swift](./Array/SpiralMatrix.swift)| Medium| O(n^2)| O(1)|
-[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix/)| [Swift](./Array/SpiralMatrixII.swift)| Medium| O(n^2)| O(1)|
+[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)| [Swift](./Array/SpiralMatrixII.swift)| Medium| O(n^2)| O(1)|
 [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/description/)| [Swift](./Array/DiagonalTraverse.swift)| Medium| O(mn)| O(1)|
 [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)| [Swift](./Array/ValidSudoku.swift)| Easy| O(n^2)| O(n)|
 [Set Matrix Zero](https://leetcode.com/problems/set-matrix-zeroes/)| [Swift](./Array/SetMatrixZeroes.swift)| Medium| O(n^2)| O(1)|
@@ -93,6 +93,7 @@
 [Gas Station](https://leetcode.com/problems/gas-station/)| [Swift](./Array/GasStation.swift)| Medium| O(n)| O(1)|
 [Game of Life](https://leetcode.com/problems/game-of-life/)| [Swift](./Array/GameLife.swift)| Medium| O(n)| O(1)|
 [Task Scheduler](https://leetcode.com/problems/task-scheduler/)| [Swift](./Array/TaskScheduler.swift)| Medium| O(nlogn)| O(n)|
+[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)| [Swift](./Array/ValidateIPAddress.swift)| Medium| O(n)| O(1)|
 [Sliding Window Maximum ](https://leetcode.com/problems/sliding-window-maximum/)| [Swift](./Array/SlidingWindowMaximum.swift)| Hard| O(n)| O(n)|
 [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)| [Swift](./Array/LongestConsecutiveSequence.swift)| Hard| O(n)| O(n)|
 [Create Maximum Number](https://leetcode.com/problems/create-maximum-number/)| [Swift](./Array/CreateMaximumNumber.swift)| Hard| O(n^2)| O(n)|
@@ -104,6 +105,7 @@
 [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)| [Swift](./String/FizzBuzz.swift)| Easy| O(n)| O(1)|
 [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)| [Swift](./String/FirstUniqueCharacterInString.swift)| Easy| O(n)| O(1)|
 [Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [Swift](./String/KeyboardRow.swift)| Easy| O(nm)| O(n)|
+[Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/)| [Swift](./String/ValidWordAbbreviation.swift)| Easy| O(n)| O(n)|
 [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)| [Swift](./String/ValidPalindrome.swift)| Easy| O(n)| O(n)|
 [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)| [Swift](./String/ValidPalindromeII.swift)| Easy| O(n)| O(n)|
 [Detect Capital](https://leetcode.com/problems/detect-capital/)| [Swift](./String/DetectCapital.swift)| Easy| O(n)| O(1)|
@@ -132,6 +134,7 @@
 [One Edit Distance](https://leetcode.com/problems/one-edit-distance/)| [Swift](./String/OneEditDistance.swift)| Medium| O(n)| O(n)|
 [Word Pattern](https://leetcode.com/problems/word-pattern/)| [Swift](./String/WordPattern.swift)| Easy| O(n)| O(n)|
 [Permutation in String](https://leetcode.com/problems/permutation-in-string/)| [Swift](/.String/PermutationInString.swift)| Medium| O(nm)| O(n)|
+[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)| [Swift](/.String/FindAllAnagramsInAString.swift)| Medium| O(n)| O(n)|
 [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)| [Swift](./String/MinimumWindowSubstring.swift)| Hard| O(n^2)| O(n)|
 [Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)| [Swift](./String/LongestSubstringMostTwoDistinctCharacters.swift)| Hard| O(n)| O(n)|
 [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)| [Swift](./String/LongestSubstringMostKDistinctCharacters.swift)| Hard| O(n)| O(n)|
@@ -174,6 +177,7 @@
 [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)| [Swift](./Stack/BinarySearchTreeIterator.swift)| Medium| O(n)| O(n)|
 [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)| [Swift](./Stack/PostorderTraversal.swift)| Hard| O(n)| O(n)|
 [Decode String](https://leetcode.com/problems/decode-string/)| [Swift](./Stack/DecodeString.swift)| Medium| O(n)| O(n)|
+[Basic Calculator](https://leetcode.com/problems/basic-calculator/)| [Swift](./Stack/BasicCalculator.swift)| Hard| O(n)| O(n)|
 
 ## Queue
 | Title | Solution | Difficulty | Time | Space |
@@ -286,6 +290,7 @@
 [Word Search](https://leetcode.com/problems/word-search/)| [Swift](./DFS/WordSearch.swift)| Medium| O((mn * 4 ^ (k - 1))| O(mn)|
 [Word Search II](https://leetcode.com/problems/word-search-ii/)| [Swift](./DFS/WordSearchII.swift)| Hard| O(((mn)^2))| O(n^2)|
 [Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/)| [Swift](./DFS/WordDictionary.swift)| Medium| O(n)| O(n)|
+[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)| [Swift](./DFS/PartitionKEqualSumSubsets.swift)| Medium| O(k^n)| O(n)|
 [N-Queens](https://leetcode.com/problems/n-queens/)| [Swift](./DFS/NQueens.swift)| Hard| O((n^n))| O(n^2)|
 [N-Queens II](https://leetcode.com/problems/n-queens-ii/)| [Swift](./DFS/NQueensII.swift)| Hard| O((n^n))| O(n)|
 [Word Squares](https://leetcode.com/problems/word-squares/)| [Swift](./DFS/WordSquares.swift)| Hard| O((n^n))| O(n)|
@@ -332,6 +337,7 @@
 [Integer to Roman](https://leetcode.com/problems/integer-to-roman/)| [Swift](./Math/IntegerToRoman.swift)| Medium| O(n)| O(1)|
 [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)| [Swift](./Math/RomanToInteger.swift)| Easy| O(n)| O(n)|
 [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/)| [Swift](./Math/IntegerEnglishWords.swift)| Hard| O(n)| O(1)|
+[Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/)| [Swift](./Math/SparseMatrixMultiplication.swift)| Medium| O(n^3)| O(n^2)|
 [Rectangle Area](https://leetcode.com/problems/rectangle-area/)| [Swift](./Math/RectangleArea.swift)| Easy| O(1)| O(1)|
 [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/)| [Swift](./Math/MinimumMovesEqualArrayElements.swift)| Easy| O(n)| O(1)|
 [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [Swift](./Math/TrappingRainWater.swift)| Hard| O(n)| O(n)|
@@ -355,7 +361,7 @@
 [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)| [Swift](./Search/Search2DMatrix.swift)| Medium| O(log(m + n))| O(1)|
 [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)| [Swift](./Search/Search2DMatrixII.swift)| Medium| O(m + n)| O(1)|
 [Search for a Range](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)| [Swift](./Search/SearchForARange.swift)| Medium| O(logn)| O(1)|
-[Search Insert Position](https://leetcode.com/problems/search-insert-position/)| [Swift](./Search/SearchForARange.swift)| Medium| O(logn)| O(1)|
+[Search Insert Position](https://leetcode.com/problems/search-insert-position/)| [Swift](./Search/SearchInsertPosition.swift)| Medium| O(logn)| O(1)|
 [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)| [Swift](./Search/PeakIndexMountainArray.swift)| Easy| O(logn)| O(1)|
 [Find Peak Element](https://leetcode.com/problems/find-peak-element/)| [Swift](./Search/FindPeakElement.swift)| Medium| O(logn)| O(1)|
 [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)| [Swift](./Search/RandomPickWeight.swift)| Medium| O(logn)| O(1)|
@@ -602,7 +608,7 @@
 |	[Swift](./Tree/BinaryTreeVerticalOrderTraversal.swift)	|	314	|	[Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) &hearts;	|	Medium
 |	[Swift](./Math/SuperUglyNumber.swift)	|	313	|	[Super Ugly Number](https://leetcode.com/problems/super-ugly-number/)	|	Medium
 |	[Swift](./DP/GuessNumberHigherOrLowerII.swift)	|	312	|	[Burst Balloons](https://leetcode.com/problems/burst-balloons/)	|	Hard
-|		|	311	|	[Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/)  &hearts;	|	Medium
+|	[Swift](./Math/SparseMatrixMultiplication.swift)	|	311	|	[Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/)  &hearts;	|	Medium
 |		|	310	|	[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)	|	Medium
 |	[Swift](./DP/BestTimeBuySellStockCooldown.swift)	|	309	|	[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)	|	Medium
 |		|	308	|	[Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/) &hearts;	|	Hard
@@ -688,7 +694,7 @@
 |		|	227	|	[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)	|	Medium	|
 |	[Swift](./Tree/InvertBinaryTree.swift)	|	226	|	[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)	| Easy	|
 |		|	225	|	[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)	| Easy	|
-|		|	224	|	[Basic Calculator](https://leetcode.com/problems/basic-calculator/)	|	Hard	|
+|	[Swift](./Stack/BasicCalculator.swift)	|	224	|	[Basic Calculator](https://leetcode.com/problems/basic-calculator/)	|	Hard	|
 |	[Swift](./Math/RectangleArea.swift)	|	223	|	[Rectangle Area](https://leetcode.com/problems/rectangle-area/)	| Easy	|
 |		|	222	|	[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)	|	Medium	|
 |	[Swift](./DP/MaximalSquare.swift)	|	221	|	[Maximal Square](https://leetcode.com/problems/maximal-square/)	|	Medium	|
